@@ -1,0 +1,31 @@
+:root {
+	--black: #000;
+	--white: #fff;
+	--grey: rgb(128, 128, 128);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	color: var(--white);
+	background: var(--black);
+	font-family: "Roboto", sans-serif;
+	padding-left: 60px;
+}
+
+h2 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+header > img {
+	width: 150px;
+}

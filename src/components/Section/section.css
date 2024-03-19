@@ -1,0 +1,13 @@
+.carousel {
+	display: flex;
+	overflow: hidden;
+	overflow-x: scroll;
+	height: 150px;
+	margin-bottom: 30px;
+	scrollbar-color: var(--grey) var(--black);
+	scrollbar-arrow-color: black;
+}
+
+.carousel > img {
+	flex-shrink: 0;
+}
